@@ -1,0 +1,503 @@
+<ForceField>
+    <Residues>
+        <Residue name="RA">
+            <Atom name="BP" type="BP-A" charge="-1.0" />
+            <Atom name="B1" type="B1-A" charge="0.0" />
+            <Atom name="B2" type="B2-A" charge="0.0" />
+            <Atom name="SA1" type="SC1-A" charge="0.0" />
+            <Atom name="SC2" type="SC2-A" charge="-1.0" />
+            <Atom name="SCD" type="SCD-A" charge="1.0" />
+            <Atom name="SCA" type="SCA-A" charge="-1.0" />
+            <Bond atomName1="BP" atomName2="B1" />
+            <Bond atomName1="B1" atomName2="B2" />
+            <Bond atomName1="B2" atomName2="SA1" />
+            <Bond atomName1="SA1" atomName2="SC2" />
+            <Bond atomName1="SA1" atomName2="SCD" />
+            <Bond atomName1="SA1" atomName2="SCA" />
+            <Bond atomName1="SC2" atomName2="SCD" />
+            <Bond atomName1="SC2" atomName2="SCA" />
+            <Bond atomName1="SCD" atomName2="SCA" />
+            <ExternalBond atomName="BP" />
+            <ExternalBond atomName="B2" />
+        </Residue>
+        <Residue name="RC">
+            <Atom name="BP" type="BP-C" charge="-1.0" />
+            <Atom name="B1" type="B1-C" charge="0.0" />
+            <Atom name="B2" type="B2-C" charge="0.0" />
+            <Atom name="SC1" type="SC1-C" charge="0.0" />
+            <Atom name="SCD" type="SCD-C" charge="1.0" />
+            <Atom name="SCA" type="SCA-C" charge="-1.0" />
+            <Bond atomName1="BP" atomName2="B1" />
+            <Bond atomName1="B1" atomName2="B2" />
+            <Bond atomName1="B2" atomName2="SC1" />
+            <Bond atomName1="SC1" atomName2="SCD" />
+            <Bond atomName1="SC1" atomName2="SCA" />
+            <Bond atomName1="SCD" atomName2="SCA" />
+            <ExternalBond atomName="BP" />
+            <ExternalBond atomName="B2" />
+        </Residue>
+        <Residue name="RU">
+            <Atom name="BP" type="BP-U" charge="-1.0" />
+            <Atom name="B1" type="B1-U" charge="0.0" />
+            <Atom name="B2" type="B2-U" charge="0.0" />
+            <Atom name="SU1" type="SC1-U" charge="-1.0" />
+            <Atom name="SCD" type="SCD-U" charge="1.0" />
+            <Atom name="SCA" type="SCA-U" charge="-1.0" />
+            <Bond atomName1="BP" atomName2="B1" />
+            <Bond atomName1="B1" atomName2="B2" />
+            <Bond atomName1="B2" atomName2="SU1" />
+            <Bond atomName1="SU1" atomName2="SCD" />
+            <Bond atomName1="SU1" atomName2="SCA" />
+            <Bond atomName1="SCD" atomName2="SCA" />
+            <ExternalBond atomName="BP" />
+            <ExternalBond atomName="B2" />
+        </Residue>
+        <Residue name="RG">
+            <Atom name="BP" type="BP-G" charge="-1.0" />
+            <Atom name="B1" type="B1-G" charge="0.0" />
+            <Atom name="B2" type="B2-G" charge="0.0" />
+            <Atom name="SG1" type="SC1-G" charge="-1.0" />
+            <Atom name="SC2" type="SC2-G" charge="-1.0" />
+            <Atom name="SCD" type="SCD-G" charge="1.0" />
+            <Atom name="SCA" type="SCA-G" charge="-1.0" />
+            <Bond atomName1="BP" atomName2="B1" />
+            <Bond atomName1="B1" atomName2="B2" />
+            <Bond atomName1="B2" atomName2="SG1" />
+            <Bond atomName1="SG1" atomName2="SC2" />
+            <Bond atomName1="SG1" atomName2="SCD" />
+            <Bond atomName1="SG1" atomName2="SCA" />
+            <Bond atomName1="SC2" atomName2="SCD" />
+            <Bond atomName1="SC2" atomName2="SCA" />
+            <Bond atomName1="SCD" atomName2="SCA" />
+            <ExternalBond atomName="BP" />
+            <ExternalBond atomName="B2" />
+        </Residue>
+        <Residue name="RA5">
+            <Atom name="B1" type="B1-A" charge="0.0" />
+            <Atom name="B2" type="B2-A" charge="0.0" />
+            <Atom name="SA1" type="SC1-A" charge="0.0" />
+            <Atom name="SC2" type="SC2-A" charge="-1.0" />
+            <Atom name="SCD" type="SCD-A" charge="1.0" />
+            <Atom name="SCA" type="SCA-A" charge="-1.0" />
+            <Bond atomName1="B1" atomName2="B2" />
+            <Bond atomName1="B2" atomName2="SA1" />
+            <Bond atomName1="SA1" atomName2="SC2" />
+            <Bond atomName1="SA1" atomName2="SCD" />
+            <Bond atomName1="SA1" atomName2="SCA" />
+            <Bond atomName1="SC2" atomName2="SCD" />
+            <Bond atomName1="SC2" atomName2="SCA" />
+            <Bond atomName1="SCD" atomName2="SCA" />
+            <ExternalBond atomName="B2" />
+        </Residue>
+        <Residue name="RC5">
+            <Atom name="B1" type="B1-C" charge="0.0" />
+            <Atom name="B2" type="B2-C" charge="0.0" />
+            <Atom name="SC1" type="SC1-C" charge="0.0" />
+            <Atom name="SCD" type="SCD-C" charge="1.0" />
+            <Atom name="SCA" type="SCA-C" charge="-1.0" />
+            <Bond atomName1="B1" atomName2="B2" />
+            <Bond atomName1="B2" atomName2="SC1" />
+            <Bond atomName1="SC1" atomName2="SCD" />
+            <Bond atomName1="SC1" atomName2="SCA" />
+            <Bond atomName1="SCD" atomName2="SCA" />
+            <ExternalBond atomName="B2" />
+        </Residue>
+        <Residue name="RU5">
+            <Atom name="B1" type="B1-U" charge="0.0" />
+            <Atom name="B2" type="B2-U" charge="0.0" />
+            <Atom name="SU1" type="SC1-U" charge="-1.0" />
+            <Atom name="SCD" type="SCD-U" charge="1.0" />
+            <Atom name="SCA" type="SCA-U" charge="-1.0" />
+            <Bond atomName1="B1" atomName2="B2" />
+            <Bond atomName1="B2" atomName2="SU1" />
+            <Bond atomName1="SU1" atomName2="SCD" />
+            <Bond atomName1="SU1" atomName2="SCA" />
+            <Bond atomName1="SCD" atomName2="SCA" />
+            <ExternalBond atomName="B2" />
+        </Residue>
+        <Residue name="RG5">
+            <Atom name="B1" type="B1-G" charge="0.0" />
+            <Atom name="B2" type="B2-G" charge="0.0" />
+            <Atom name="SG1" type="SC1-G" charge="-1.0" />
+            <Atom name="SC2" type="SC2-G" charge="-1.0" />
+            <Atom name="SCD" type="SCD-G" charge="1.0" />
+            <Atom name="SCA" type="SCA-G" charge="-1.0" />
+            <Bond atomName1="B1" atomName2="B2" />
+            <Bond atomName1="B2" atomName2="SG1" />
+            <Bond atomName1="SG1" atomName2="SC2" />
+            <Bond atomName1="SG1" atomName2="SCD" />
+            <Bond atomName1="SG1" atomName2="SCA" />
+            <Bond atomName1="SC2" atomName2="SCD" />
+            <Bond atomName1="SC2" atomName2="SCA" />
+            <Bond atomName1="SCD" atomName2="SCA" />
+            <ExternalBond atomName="B2" />
+        </Residue>
+        <Residue name="RA3">
+            <Atom name="BP" type="BP-A" charge="-1.0" />
+            <Atom name="B1" type="B1-A" charge="0.0" />
+            <Atom name="B2" type="B2-A" charge="0.0" />
+            <Atom name="SA1" type="SC1-A" charge="0.0" />
+            <Atom name="SC2" type="SC2-A" charge="-1.0" />
+            <Atom name="SCD" type="SCD-A" charge="1.0" />
+            <Atom name="SCA" type="SCA-A" charge="-1.0" />
+            <Bond atomName1="BP" atomName2="B1" />
+            <Bond atomName1="B1" atomName2="B2" />
+            <Bond atomName1="B2" atomName2="SA1" />
+            <Bond atomName1="SA1" atomName2="SC2" />
+            <Bond atomName1="SA1" atomName2="SCD" />
+            <Bond atomName1="SA1" atomName2="SCA" />
+            <Bond atomName1="SC2" atomName2="SCD" />
+            <Bond atomName1="SC2" atomName2="SCA" />
+            <Bond atomName1="SCD" atomName2="SCA" />
+            <ExternalBond atomName="BP" />
+        </Residue>
+        <Residue name="RC3">
+            <Atom name="BP" type="BP-C" charge="-1.0" />
+            <Atom name="B1" type="B1-C" charge="0.0" />
+            <Atom name="B2" type="B2-C" charge="0.0" />
+            <Atom name="SC1" type="SC1-C" charge="0.0" />
+            <Atom name="SCD" type="SCD-C" charge="1.0" />
+            <Atom name="SCA" type="SCA-C" charge="-1.0" />
+            <Bond atomName1="BP" atomName2="B1" />
+            <Bond atomName1="B1" atomName2="B2" />
+            <Bond atomName1="B2" atomName2="SC1" />
+            <Bond atomName1="SC1" atomName2="SCD" />
+            <Bond atomName1="SC1" atomName2="SCA" />
+            <Bond atomName1="SCD" atomName2="SCA" />
+            <ExternalBond atomName="BP" />
+        </Residue>
+        <Residue name="RU3">
+            <Atom name="BP" type="BP-U" charge="-1.0" />
+            <Atom name="B1" type="B1-U" charge="0.0" />
+            <Atom name="B2" type="B2-U" charge="0.0" />
+            <Atom name="SU1" type="SC1-U" charge="-1.0" />
+            <Atom name="SCD" type="SCD-U" charge="1.0" />
+            <Atom name="SCA" type="SCA-U" charge="-1.0" />
+            <Bond atomName1="BP" atomName2="B1" />
+            <Bond atomName1="B1" atomName2="B2" />
+            <Bond atomName1="B2" atomName2="SU1" />
+            <Bond atomName1="SU1" atomName2="SCD" />
+            <Bond atomName1="SU1" atomName2="SCA" />
+            <Bond atomName1="SCD" atomName2="SCA" />
+            <ExternalBond atomName="BP" />
+        </Residue>
+        <Residue name="RG3">
+            <Atom name="BP" type="BP-G" charge="-1.0" />
+            <Atom name="B1" type="B1-G" charge="0.0" />
+            <Atom name="B2" type="B2-G" charge="0.0" />
+            <Atom name="SG1" type="SC1-G" charge="-1.0" />
+            <Atom name="SC2" type="SC2-G" charge="-1.0" />
+            <Atom name="SCD" type="SCD-G" charge="1.0" />
+            <Atom name="SCA" type="SCA-G" charge="-1.0" />
+            <Bond atomName1="BP" atomName2="B1" />
+            <Bond atomName1="B1" atomName2="B2" />
+            <Bond atomName1="B2" atomName2="SG1" />
+            <Bond atomName1="SG1" atomName2="SC2" />
+            <Bond atomName1="SG1" atomName2="SCD" />
+            <Bond atomName1="SG1" atomName2="SCA" />
+            <Bond atomName1="SC2" atomName2="SCD" />
+            <Bond atomName1="SC2" atomName2="SCA" />
+            <Bond atomName1="SCD" atomName2="SCA" />
+            <ExternalBond atomName="BP" />
+        </Residue>
+    </Residues>
+    <AtomTypes>
+        <Type class="BP" element="P" mass="60.0" name="BP-A" />
+        <Type class="B1" element="O" mass="60.0" name="B1-A" />
+        <Type class="B2" element="C" mass="60.0" name="B2-A" />
+        <Type class="SC1-A" element="C" mass="60.0" name="SC1-A" />
+        <Type class="SC2-A" element="C" mass="60.0" name="SC2-A" />
+        <Type class="SCD-A" element="N" mass="60.0" name="SCD-A" />
+        <Type class="SCA-A" element="N" mass="60.0" name="SCA-A" />
+        <Type class="BP" element="P" mass="60.0" name="BP-C" />
+        <Type class="B1" element="S" mass="60.0" name="B1-C" />
+        <Type class="B2" element="C" mass="60.0" name="B2-C" />
+        <Type class="SC1-C" element="C" mass="60.0" name="SC1-C" />
+        <Type class="SCD-C" element="N" mass="60.0" name="SCD-C" />
+        <Type class="SCA-C" element="N" mass="60.0" name="SCA-C" />
+        <Type class="BP" element="P" mass="60.0" name="BP-U" />
+        <Type class="B1" element="C" mass="60.0" name="B1-U" />
+        <Type class="B2" element="C" mass="60.0" name="B2-U" />
+        <Type class="SC1-U" element="C" mass="60.0" name="SC1-U" />
+        <Type class="SCD-U" element="N" mass="60.0" name="SCD-U" />
+        <Type class="SCA-U" element="N" mass="60.0" name="SCA-U" />
+        <Type class="BP" element="P" mass="60.0" name="BP-G" />
+        <Type class="B1" element="F" mass="60.0" name="B1-G" />
+        <Type class="B2" element="C" mass="60.0" name="B2-G" />
+        <Type class="SC1-G" element="C" mass="60.0" name="SC1-G" />
+        <Type class="SC2-G" element="C" mass="60.0" name="SC2-G" />
+        <Type class="SCD-G" element="N" mass="60.0" name="SCD-G" />
+        <Type class="SCA-G" element="N" mass="60.0" name="SCA-G" />
+    </AtomTypes>
+    <HarmonicBondForce>
+
+        <Bond k="30240.57354" length="0.368" class1="BP" class2="B1" />
+        <Bond k="21341.10069" length="0.365" class1="BP" class2="B2" />
+        <Bond k="80284.82753" length="0.251" class1="B1" class2="B2" />
+        <Bond k="32689.32377" length="0.294" class1="B2" class2="SC1-A" />
+        <Bond k="29317.34023" length="0.291" class1="B2" class2="SC1-C" />
+        <Bond k="31407.81270" length="0.355" class1="B2" class2="SC1-G" />
+        <Bond k="7279.09325" length="0.311" class1="B2" class2="SC1-U" />
+        <Bond k="512945.88616" length="0.164" class1="SC1-A" class2="SC2-A" />
+        <Bond k="229452.74271" length="0.262" class1="SC1-A" class2="SCD-A" />
+        <Bond k="153777.81080" length="0.357" class1="SC1-A" class2="SCA-A" />
+        <Bond k="250945.27427" length="0.327" class1="SC2-A" class2="SCD-A" />
+        <Bond k="113780.03293" length="0.287" class1="SC2-A" class2="SCA-A" />
+        <Bond k="185386.54365" length="0.259" class1="SCD-A" class2="SCA-A" />
+        <Bond k="475473.93413" length="0.207" class1="SC1-G" class2="SC2-G" />
+        <Bond k="239420.31139" length="0.279" class1="SC1-G" class2="SCD-G" />
+        <Bond k="180098.83062" length="0.350" class1="SC1-G" class2="SCA-G" />
+        <Bond k="173448.84733" length="0.399" class1="SC2-G" class2="SCD-G" />
+        <Bond k="116240.50571" length="0.289" class1="SC2-G" class2="SCA-G" />
+        <Bond k="148221.47715" length="0.294" class1="SCD-G" class2="SCA-G" />
+        <Bond k="283864.58897" length="0.266" class1="SC1-C" class2="SCD-C" />
+        <Bond k="316847.13472" length="0.226" class1="SC1-C" class2="SCA-C" />
+        <Bond k="200600.02184" length="0.280" class1="SCD-C" class2="SCA-C" />
+        <Bond k="249612.80957" length="0.288" class1="SC1-U" class2="SCD-U" />
+        <Bond k="247154.56822" length="0.182" class1="SC1-U" class2="SCA-U" />
+        <Bond k="233309.56301" length="0.175" class1="SCD-U" class2="SCA-U" />
+    </HarmonicBondForce>
+    <HarmonicAngleForce>
+        <Angle k="285.49" angle="1.8353011608" class1="BP" class2="B1" class3="B2" />
+        <Angle k="491.78" angle="1.7003242970" class1="B1" class2="B2" class3="BP" />
+        <Angle k="247.95" angle="1.7451133728" class1="B2" class2="BP" class3="B1" />
+        <Angle k="348.88" angle="1.3449254036" class1="B1" class2="B2" class3="SC1-A" />
+        <Angle k="528.12" angle="1.3295840025" class1="B1" class2="B2" class3="SC1-C" />
+        <Angle k="272.50" angle="1.2927527428" class1="B1" class2="B2" class3="SC1-G" />
+        <Angle k="237.52" angle="1.6936235428" class1="B1" class2="B2" class3="SC1-U" />
+        <Angle k="128.34" angle="2.6028084755" class1="BP" class2="B2" class3="SC1-A" />
+        <Angle k="231.48" angle="2.6396818161" class1="BP" class2="B2" class3="SC1-C" />
+        <Angle k="117.20" angle="2.3486356735" class1="BP" class2="B2" class3="SC1-G" />
+        <Angle k="160.69" angle="2.3327095509" class1="BP" class2="B2" class3="SC1-U" />
+        <Angle k="116.86" angle="2.3693871498" class1="B2" class2="SC1-A" class3="SC2-A" />
+        <Angle k="198.85" angle="1.5745368004" class1="B2" class2="SC1-G" class3="SC2-G" />
+        <Angle k="164.55" angle="2.7305531502" class1="B2" class2="SC1-A" class3="SCA-A" />
+        <Angle k="277.68" angle="2.7761387825" class1="B2" class2="SC1-G" class3="SCD-G" />
+        <Angle k="157.75" angle="2.6325511932" class1="B2" class2="SC1-C" class3="SCD-C" />
+        <Angle k="230.03" angle="1.6290278435" class1="B2" class2="SC1-C" class3="SCA-C" />
+        <Angle k="480.90" angle="1.8741874695" class1="B2" class2="SC1-U" class3="SCD-U" />
+        <Angle k="326.94" angle="2.4673614502" class1="B2" class2="SC1-U" class3="SCA-U" />
+    </HarmonicAngleForce>
+    <PeriodicTorsionForce ordering="amber">
+        <Proper class1="BP" class2="B1" class3="B2" class4="BP" periodicity1="1" phase1="-2.2661712283819204" k1="4.694218903804125" periodicity2="2" phase2="0.6155737323673836" k2="1.2256487523442166" periodicity3="3" phase3="2.4117854110298165" k3="1.7738620697662024" periodicity4="4" phase4="0.2682365211844453" k4="1.3832013262320446" />
+        <Proper class1="B1" class2="B2" class3="BP" class4="B1" periodicity1="1" phase1="-2.5320565389694054" k1="0.7791106563801551" periodicity2="2" phase2="2.723426382329147" k2="1.0843818347662069" periodicity3="3" phase3="0.4264481281441895" k3="0.28903817962049044" periodicity4="4" phase4="-1.0781591686926915" k4="0.3317484430134732" />
+        <Proper class1="B2" class2="BP" class3="B1" class4="B2" periodicity1="1" phase1="-1.0346867075556978" k1="1.3688437603285128" periodicity2="2" phase2="0.4825733382655062" k2="0.9628279893166818" periodicity3="3" phase3="-1.6538067118617343" k3="0.3066168084650405" periodicity4="4" phase4="-1.8402990206895005" k4="0.7272341578062612" />
+        <Proper class1="BP" class2="B1" class3="B2" class4="SC1-A" periodicity1="1" phase1="1.0743305321134813" k1="4.049033636894638" periodicity2="2" phase2="-0.10582283532654158" k2="3.222595198479003" periodicity3="3" phase3="-0.45280905237449803" k3="2.9738212734490623e-05" periodicity4="4" phase4="-0.7273608913796542" k4="0.8743948608544553" />
+        <Proper class1="B1" class2="BP" class3="B2" class4="SC1-A" periodicity1="1" phase1="-2.8537546901847337" k1="0.20901184818373048" periodicity2="2" phase2="-1.7057735841138608" k2="0.8488511263387423" periodicity3="3" phase3="-2.677017420653775" k3="0.054184203413464256" periodicity4="4" phase4="-1.2803987339379617" k4="1.1186176707633915e-06" />
+        <Proper class1="BP" class2="B1" class3="B2" class4="SC1-C" periodicity1="1" phase1="1.4036914581564717" k1="6.714036027835393e-05" periodicity2="2" phase2="0.8293802721744608" k2="4.999804475241332" periodicity3="3" phase3="-0.4734466230644791" k3="1.4709344251334505e-05" periodicity4="4" phase4="-1.780480549224394" k4="1.3171777509124196" />
+        <Proper class1="B1" class2="BP" class3="B2" class4="SC1-C" periodicity1="1" phase1="1.531981667988634" k1="1.2429596823585891" periodicity2="2" phase2="-3.0063133784556695" k2="0.21709520531285265" periodicity3="3" phase3="2.6403059851111257" k3="0.5339465665135783" periodicity4="4" phase4="-0.4344535077049273" k4="0.21563758307885642" />
+        <Proper class1="BP" class2="B1" class3="B2" class4="SC1-G" periodicity1="1" phase1="1.0661481096047647" k1="4.999951027071152" periodicity2="2" phase2="-1.6101550960387743" k2="1.0719560700619457" periodicity3="3" phase3="0.8577724344579677" k3="3.532004574309455e-06" periodicity4="4" phase4="-2.8490522113891803" k4="0.419956458847199" />
+        <Proper class1="B1" class2="BP" class3="B2" class4="SC1-G" periodicity1="1" phase1="1.7202836236810157" k1="1.1107194140795866" periodicity2="2" phase2="1.1149646404676832" k2="0.7162022717241966" periodicity3="3" phase3="2.0431432217268153" k3="0.1446661782941771" periodicity4="4" phase4="-1.0697212421287465" k4="0.09067166674756436" />
+        <Proper class1="BP" class2="B1" class3="B2" class4="SC1-U" periodicity1="1" phase1="1.15459614753726" k1="1.5042705521834506e-05" periodicity2="2" phase2="-0.36302622760640674" k2="4.999998717821981" periodicity3="3" phase3="-1.8456283898883596" k3="0.363938142270427" periodicity4="4" phase4="2.973569253214626" k4="2.9804304932745698e-05" />
+        <Proper class1="B1" class2="BP" class3="B2" class4="SC1-U" periodicity1="1" phase1="1.0920828067112576" k1="2.0914578497638634" periodicity2="2" phase2="0.48603668684865287" k2="1.2200737972053892" periodicity3="3" phase3="-0.4115442555013749" k3="0.47972989998417165" periodicity4="4" phase4="1.0005542037073625" k4="0.03491696403700935" />
+        <Proper class1="B1" class2="B2" class3="SC1-A" class4="" periodicity1="1" phase1="-0.6299559228275151" k1="2.1313041848311345" periodicity2="2" phase2="-0.6787934826352146" k2="1.229942869312532" periodicity3="3" phase3="2.4945406465430047" k3="0.329445318914619" periodicity4="4" phase4="-0.29755961407797454" k4="0.028735260291277022" />
+        <Proper class1="BP" class2="B2" class3="SC1-A" class4="" periodicity1="1" phase1="-0.6145976322883189" k1="0.30586054749148733" periodicity2="2" phase2="2.2606932595940723" k2="0.29328464755930894" periodicity3="3" phase3="-2.9139610394759297" k3="0.3892634959160711" periodicity4="4" phase4="2.2249489228519863" k4="5.20821740604559e-08" />
+        <Proper class1="B1" class2="B2" class3="SC1-C" class4="" periodicity1="1" phase1="0.3578041593075241" k1="4.613059349539389" periodicity2="2" phase2="-2.201371011161585" k2="0.887901175738575" periodicity3="3" phase3="-1.1757708090154906" k3="0.8652965167438164" periodicity4="4" phase4="1.253219224566593" k4="0.055296197055802215" />
+        <Proper class1="BP" class2="B2" class3="SC1-C" class4="" periodicity1="1" phase1="-0.19092177523759124" k1="1.2160247059035358" periodicity2="2" phase2="-0.04746809793736708" k2="1.206726616907475" periodicity3="3" phase3="1.3370783498057475" k3="0.289033153994118" periodicity4="4" phase4="1.6583890201153373" k4="4.1174522043555857e-07" />
+        <Proper class1="B1" class2="B2" class3="SC1-G" class4="" periodicity1="1" phase1="-0.8383400481992662" k1="1.1569034960971771" periodicity2="2" phase2="-0.43536297001165863" k2="0.8697352511898238" periodicity3="3" phase3="-1.3883010536796674" k3="0.1900849119065786" periodicity4="4" phase4="-1.835858359892652" k4="0.44405777804227253" />
+        <Proper class1="BP" class2="B2" class3="SC1-G" class4="" periodicity1="1" phase1="1.0533034162689454" k1="0.4465595497127753" periodicity2="2" phase2="2.0252969820109734" k2="0.7946240055034752" periodicity3="3" phase3="1.0277146715047372" k3="0.7361295539815006" periodicity4="4" phase4="2.7356191653647706" k4="0.34142695687091246" />
+        <Proper class1="B1" class2="B2" class3="SC1-U" class4="" periodicity1="1" phase1="-2.0972870509094643" k1="1.2171358103100347" periodicity2="2" phase2="0.066201945394395" k2="4.194969695179849" periodicity3="3" phase3="2.6107660283878973" k3="2.9804304932745708e-05" periodicity4="4" phase4="-0.5204380345451045" k4="2.9804304932745698e-05" />
+        <Proper class1="BP" class2="B2" class3="SC1-U" class4="" periodicity1="1" phase1="-0.23987188249109076" k1="1.481516660625459" periodicity2="2" phase2="2.768536230568197" k2="2.4709095492677404" periodicity3="3" phase3="0.585959452116764" k3="0.9106590793400606" periodicity4="4" phase4="0.19942438753819736" k4="0.5715698606657061" />
+    </PeriodicTorsionForce>
+    <NonbondedForce coulomb14scale="0.8333333333333334" lj14scale="0.5">
+        <UseAttributeFromResidue name="charge" />
+        <Atom type="BP-A" sigma="0.5" epsilon="0.0" />
+        <Atom type="B1-A" sigma="0.5" epsilon="0.0" />
+        <Atom type="B2-A" sigma="0.5" epsilon="0.0" />
+        <Atom type="SC1-A" sigma="0.5" epsilon="0.0" />
+        <Atom type="SC2-A" sigma="0.5" epsilon="0.0" />
+        <Atom type="SCD-A" sigma="0.5" epsilon="0.0" />
+        <Atom type="SCA-A" sigma="0.5" epsilon="0.0" />
+        <Atom type="BP-C" sigma="0.5" epsilon="0.0" />
+        <Atom type="B1-C" sigma="0.5" epsilon="0.0" />
+        <Atom type="B2-C" sigma="0.5" epsilon="0.0" />
+        <Atom type="SC1-C" sigma="0.5" epsilon="0.0" />
+        <Atom type="SCD-C" sigma="0.5" epsilon="0.0" />
+        <Atom type="SCA-C" sigma="0.5" epsilon="0.0" />
+        <Atom type="BP-U" sigma="0.5" epsilon="0.0" />
+        <Atom type="B1-U" sigma="0.5" epsilon="0.0" />
+        <Atom type="B2-U" sigma="0.5" epsilon="0.0" />
+        <Atom type="SC1-U" sigma="0.5" epsilon="0.0" />
+        <Atom type="SCD-U" sigma="0.5" epsilon="0.0" />
+        <Atom type="SCA-U" sigma="0.5" epsilon="0.0" />
+        <Atom type="BP-G" sigma="0.5" epsilon="0.0" />
+        <Atom type="B1-G" sigma="0.5" epsilon="0.0" />
+        <Atom type="B2-G" sigma="0.5" epsilon="0.0" />
+        <Atom type="SC1-G" sigma="0.5" epsilon="0.0" />
+        <Atom type="SC2-G" sigma="0.5" epsilon="0.0" />
+        <Atom type="SCD-G" sigma="0.5" epsilon="0.0" />
+        <Atom type="SCA-G" sigma="0.5" epsilon="0.0" />
+    </NonbondedForce>
+	<LennardJonesForce lj14scale="0.5" useDispersionCorrection="False">
+        <Atom class="BP" sigma="0.5" epsilon="0.005" />
+        <Atom class="B1" sigma="0.5" epsilon="0.005" />
+        <Atom class="B2" sigma="0.5" epsilon="0.005" />
+        <Atom class="SC1-A" sigma="0.5" epsilon="0.005" />
+        <Atom class="SC2-A" sigma="0.5" epsilon="0.005" />
+        <Atom class="SCD-A" sigma="0.5" epsilon="0.005" />
+        <Atom class="SCA-A" sigma="0.5" epsilon="0.005" />
+        <Atom class="SC1-C" sigma="0.5" epsilon="0.005" />
+        <Atom class="SCD-C" sigma="0.5" epsilon="0.005" />
+        <Atom class="SCA-C" sigma="0.5" epsilon="0.005" />
+        <Atom class="SC1-U" sigma="0.5" epsilon="0.005" />
+        <Atom class="SCD-U" sigma="0.5" epsilon="0.005" />
+        <Atom class="SCA-U" sigma="0.5" epsilon="0.005" />
+        <Atom class="SC1-G" sigma="0.5" epsilon="0.005" />
+        <Atom class="SC2-G" sigma="0.5" epsilon="0.005" />
+        <Atom class="SCD-G" sigma="0.5" epsilon="0.005" />
+        <Atom class="SCA-G" sigma="0.5" epsilon="0.005" />
+		<NBFixPair class1="SCD-A" class2="SCD-A" sigma="0.32" epsilon="2.7" />
+		<NBFixPair class1="SCD-A" class2="SCD-C" sigma="0.32" epsilon="2.7" />
+		<NBFixPair class1="SCD-A" class2="SCD-U" sigma="0.32" epsilon="2.7" />
+		<NBFixPair class1="SCD-A" class2="SCD-G" sigma="0.32" epsilon="2.7" />
+		<NBFixPair class1="SCD-C" class2="SCD-C" sigma="0.32" epsilon="3.5" />
+		<NBFixPair class1="SCD-C" class2="SCD-U" sigma="0.32" epsilon="3.5" />
+		<NBFixPair class1="SCD-C" class2="SCD-G" sigma="0.32" epsilon="3.5" />
+		<NBFixPair class1="SCD-U" class2="SCD-U" sigma="0.32" epsilon="4.5" />
+		<NBFixPair class1="SCD-U" class2="SCD-G" sigma="0.32" epsilon="4.5" />
+		<NBFixPair class1="SCD-G" class2="SCD-G" sigma="0.32" epsilon="2.0" />
+		<NBFixPair class1="BP" class2="BP" sigma="0.47" epsilon="3.5" />
+		<NBFixPair class1="BP" class2="SC2-A" sigma="0.47" epsilon="3.5" />
+		<NBFixPair class1="BP" class2="SCA-A" sigma="0.47" epsilon="3.5" />
+		<NBFixPair class1="BP" class2="SC1-U" sigma="0.47" epsilon="3.5" />
+		<NBFixPair class1="BP" class2="SCA-U" sigma="0.47" epsilon="3.5" />
+		<NBFixPair class1="BP" class2="SC1-G" sigma="0.47" epsilon="3.5" />
+		<NBFixPair class1="BP" class2="SC2-G" sigma="0.47" epsilon="3.5" />
+		<NBFixPair class1="BP" class2="SCA-G" sigma="0.47" epsilon="3.5" />
+		<NBFixPair class1="BP" class2="SCA-C" sigma="0.47" epsilon="3.5" />
+		<NBFixPair class1="SC2-A" class2="SC2-A" sigma="0.32" epsilon="3.0" />
+		<NBFixPair class1="SC2-A" class2="SCA-A" sigma="0.32" epsilon="3.0" />
+		<NBFixPair class1="SC2-A" class2="SC1-U" sigma="0.32" epsilon="3.0" />
+		<NBFixPair class1="SC2-A" class2="SCA-U" sigma="0.32" epsilon="3.0" />
+		<NBFixPair class1="SC2-A" class2="SC1-G" sigma="0.32" epsilon="3.0" />
+		<NBFixPair class1="SC2-A" class2="SC2-G" sigma="0.32" epsilon="3.0" />
+		<NBFixPair class1="SC2-A" class2="SCA-G" sigma="0.32" epsilon="3.0" />
+		<NBFixPair class1="SC2-A" class2="SCA-C" sigma="0.32" epsilon="3.0" />
+		<NBFixPair class1="SCA-A" class2="SCA-A" sigma="0.32" epsilon="2.3" />
+		<NBFixPair class1="SCA-A" class2="SC1-U" sigma="0.32" epsilon="2.3" />
+		<NBFixPair class1="SCA-A" class2="SCA-U" sigma="0.32" epsilon="2.3" />
+		<NBFixPair class1="SCA-A" class2="SC1-G" sigma="0.32" epsilon="2.3" />
+		<NBFixPair class1="SCA-A" class2="SC2-G" sigma="0.32" epsilon="2.3" />
+		<NBFixPair class1="SCA-A" class2="SCA-G" sigma="0.32" epsilon="2.3" />
+		<NBFixPair class1="SCA-A" class2="SCA-C" sigma="0.32" epsilon="2.3" />
+		<NBFixPair class1="SC1-U" class2="SC1-U" sigma="0.32" epsilon="2.62" />
+		<NBFixPair class1="SC1-U" class2="SCA-U" sigma="0.32" epsilon="2.62" />
+		<NBFixPair class1="SC1-U" class2="SC1-G" sigma="0.32" epsilon="2.62" />
+		<NBFixPair class1="SC1-U" class2="SC2-G" sigma="0.32" epsilon="2.62" />
+		<NBFixPair class1="SC1-U" class2="SCA-G" sigma="0.32" epsilon="2.62" />
+		<NBFixPair class1="SC1-U" class2="SCA-C" sigma="0.32" epsilon="2.62" />
+		<NBFixPair class1="SCA-U" class2="SCA-U" sigma="0.32" epsilon="4.0" />
+		<NBFixPair class1="SCA-U" class2="SC1-G" sigma="0.32" epsilon="4.0" />
+		<NBFixPair class1="SCA-U" class2="SC2-G" sigma="0.32" epsilon="4.0" />
+		<NBFixPair class1="SCA-U" class2="SCA-G" sigma="0.32" epsilon="4.0" />
+		<NBFixPair class1="SCA-U" class2="SCA-C" sigma="0.32" epsilon="4.0" />
+		<NBFixPair class1="SC1-G" class2="SC1-G" sigma="0.32" epsilon="2.62" />
+		<NBFixPair class1="SC1-G" class2="SC2-G" sigma="0.32" epsilon="2.62" />
+		<NBFixPair class1="SC1-G" class2="SCA-G" sigma="0.32" epsilon="2.62" />
+		<NBFixPair class1="SC1-G" class2="SCA-C" sigma="0.32" epsilon="2.62" />
+		<NBFixPair class1="SC2-G" class2="SC2-G" sigma="0.32" epsilon="3.0" />
+		<NBFixPair class1="SC2-G" class2="SCA-G" sigma="0.32" epsilon="3.0" />
+		<NBFixPair class1="SC2-G" class2="SCA-C" sigma="0.32" epsilon="3.0" />
+		<NBFixPair class1="SCA-G" class2="SCA-G" sigma="0.32" epsilon="2.0" />
+		<NBFixPair class1="SCA-G" class2="SCA-C" sigma="0.32" epsilon="2.0" />
+		<NBFixPair class1="SCA-C" class2="SCA-C" sigma="0.32" epsilon="3.5" />
+		<NBFixPair class1="SCD-A" class2="B1" sigma="0.32" epsilon="2.7" />
+		<NBFixPair class1="SCD-A" class2="B2" sigma="0.32" epsilon="2.7" />
+		<NBFixPair class1="SCD-A" class2="SC1-A" sigma="0.32" epsilon="2.7" />
+		<NBFixPair class1="SCD-A" class2="SC1-C" sigma="0.32" epsilon="2.7" />
+		<NBFixPair class1="SCD-C" class2="B1" sigma="0.32" epsilon="3.5" />
+		<NBFixPair class1="SCD-C" class2="B2" sigma="0.32" epsilon="3.5" />
+		<NBFixPair class1="SCD-C" class2="SC1-A" sigma="0.32" epsilon="3.5" />
+		<NBFixPair class1="SCD-C" class2="SC1-C" sigma="0.32" epsilon="3.5" />
+		<NBFixPair class1="SCD-U" class2="B1" sigma="0.32" epsilon="4.5" />
+		<NBFixPair class1="SCD-U" class2="B2" sigma="0.32" epsilon="4.5" />
+		<NBFixPair class1="SCD-U" class2="SC1-A" sigma="0.32" epsilon="4.5" />
+		<NBFixPair class1="SCD-U" class2="SC1-C" sigma="0.32" epsilon="4.5" />
+		<NBFixPair class1="SCD-G" class2="B1" sigma="0.32" epsilon="2.0" />
+		<NBFixPair class1="SCD-G" class2="B2" sigma="0.32" epsilon="2.0" />
+		<NBFixPair class1="SCD-G" class2="SC1-A" sigma="0.32" epsilon="2.0" />
+		<NBFixPair class1="SCD-G" class2="SC1-C" sigma="0.32" epsilon="2.0" />
+		<NBFixPair class1="BP" class2="B1" sigma="0.47" epsilon="3.5" />
+		<NBFixPair class1="BP" class2="B2" sigma="0.47" epsilon="3.5" />
+		<NBFixPair class1="BP" class2="SC1-A" sigma="0.47" epsilon="3.5" />
+		<NBFixPair class1="BP" class2="SC1-C" sigma="0.47" epsilon="3.5" />
+		<NBFixPair class1="SC2-A" class2="B1" sigma="0.32" epsilon="3.0" />
+		<NBFixPair class1="SC2-A" class2="B2" sigma="0.32" epsilon="3.0" />
+		<NBFixPair class1="SC2-A" class2="SC1-A" sigma="0.32" epsilon="3.0" />
+		<NBFixPair class1="SC2-A" class2="SC1-C" sigma="0.32" epsilon="3.0" />
+		<NBFixPair class1="SCA-A" class2="B1" sigma="0.32" epsilon="2.3" />
+		<NBFixPair class1="SCA-A" class2="B2" sigma="0.32" epsilon="2.3" />
+		<NBFixPair class1="SCA-A" class2="SC1-A" sigma="0.32" epsilon="2.3" />
+		<NBFixPair class1="SCA-A" class2="SC1-C" sigma="0.32" epsilon="2.3" />
+		<NBFixPair class1="SC1-U" class2="B1" sigma="0.32" epsilon="2.62" />
+		<NBFixPair class1="SC1-U" class2="B2" sigma="0.32" epsilon="2.62" />
+		<NBFixPair class1="SC1-U" class2="SC1-A" sigma="0.32" epsilon="2.62" />
+		<NBFixPair class1="SC1-U" class2="SC1-C" sigma="0.32" epsilon="2.62" />
+		<NBFixPair class1="SCA-U" class2="B1" sigma="0.32" epsilon="4.0" />
+		<NBFixPair class1="SCA-U" class2="B2" sigma="0.32" epsilon="4.0" />
+		<NBFixPair class1="SCA-U" class2="SC1-A" sigma="0.32" epsilon="4.0" />
+		<NBFixPair class1="SCA-U" class2="SC1-C" sigma="0.32" epsilon="4.0" />
+		<NBFixPair class1="SC1-G" class2="B1" sigma="0.32" epsilon="2.62" />
+		<NBFixPair class1="SC1-G" class2="B2" sigma="0.32" epsilon="2.62" />
+		<NBFixPair class1="SC1-G" class2="SC1-A" sigma="0.32" epsilon="2.62" />
+		<NBFixPair class1="SC1-G" class2="SC1-C" sigma="0.32" epsilon="2.62" />
+		<NBFixPair class1="SC2-G" class2="B1" sigma="0.32" epsilon="3.0" />
+		<NBFixPair class1="SC2-G" class2="B2" sigma="0.32" epsilon="3.0" />
+		<NBFixPair class1="SC2-G" class2="SC1-A" sigma="0.32" epsilon="3.0" />
+		<NBFixPair class1="SC2-G" class2="SC1-C" sigma="0.32" epsilon="3.0" />
+		<NBFixPair class1="SCA-G" class2="B1" sigma="0.32" epsilon="2.0" />
+		<NBFixPair class1="SCA-G" class2="B2" sigma="0.32" epsilon="2.0" />
+		<NBFixPair class1="SCA-G" class2="SC1-A" sigma="0.32" epsilon="2.0" />
+		<NBFixPair class1="SCA-G" class2="SC1-C" sigma="0.32" epsilon="2.0" />
+		<NBFixPair class1="SCA-C" class2="B1" sigma="0.32" epsilon="3.5" />
+		<NBFixPair class1="SCA-C" class2="B2" sigma="0.32" epsilon="3.5" />
+		<NBFixPair class1="SCA-C" class2="SC1-A" sigma="0.32" epsilon="3.5" />
+		<NBFixPair class1="SCA-C" class2="SC1-C" sigma="0.32" epsilon="3.5" />
+		<NBFixPair class1="B1" class2="B1" sigma="0.43" epsilon="2.62" />
+		<NBFixPair class1="B1" class2="B2" sigma="0.43" epsilon="2.62" />
+		<NBFixPair class1="B1" class2="SC1-A" sigma="0.43" epsilon="2.62" />
+		<NBFixPair class1="B1" class2="SC1-C" sigma="0.43" epsilon="2.62" />
+		<NBFixPair class1="B2" class2="B2" sigma="0.43" epsilon="3.38" />
+		<NBFixPair class1="B2" class2="SC1-A" sigma="0.43" epsilon="3.38" />
+		<NBFixPair class1="B2" class2="SC1-C" sigma="0.43" epsilon="3.38" />
+		<NBFixPair class1="SC1-A" class2="SC1-A" sigma="0.32" epsilon="2.62" />
+		<NBFixPair class1="SC1-A" class2="SC1-C" sigma="0.32" epsilon="2.62" />
+		<NBFixPair class1="SC1-C" class2="SC1-C" sigma="0.32" epsilon="2.62" />
+		<NBFixPair class1="SCD-A" class2="BP" sigma="0.32" epsilon="2.7" />
+		<NBFixPair class1="SCD-A" class2="SC2-A" sigma="0.32" epsilon="2.7" />
+		<NBFixPair class1="SCD-A" class2="SCA-A" sigma="0.32" epsilon="2.7" />
+		<NBFixPair class1="SCD-A" class2="SC1-U" sigma="0.32" epsilon="2.7" />
+		<NBFixPair class1="SCD-A" class2="SCA-U" sigma="0.32" epsilon="2.7" />
+		<NBFixPair class1="SCD-A" class2="SC1-G" sigma="0.32" epsilon="2.7" />
+		<NBFixPair class1="SCD-A" class2="SC2-G" sigma="0.32" epsilon="2.7" />
+		<NBFixPair class1="SCD-A" class2="SCA-G" sigma="0.32" epsilon="2.7" />
+		<NBFixPair class1="SCD-A" class2="SCA-C" sigma="0.32" epsilon="2.7" />
+		<NBFixPair class1="SCD-C" class2="BP" sigma="0.32" epsilon="3.5" />
+		<NBFixPair class1="SCD-C" class2="SC2-A" sigma="0.32" epsilon="3.5" />
+		<NBFixPair class1="SCD-C" class2="SCA-A" sigma="0.32" epsilon="3.5" />
+		<NBFixPair class1="SCD-C" class2="SC1-U" sigma="0.32" epsilon="3.5" />
+		<NBFixPair class1="SCD-C" class2="SCA-U" sigma="0.32" epsilon="3.5" />
+		<NBFixPair class1="SCD-C" class2="SC1-G" sigma="0.32" epsilon="3.5" />
+		<NBFixPair class1="SCD-C" class2="SC2-G" sigma="0.32" epsilon="3.5" />
+		<NBFixPair class1="SCD-C" class2="SCA-G" sigma="0.32" epsilon="3.5" />
+		<NBFixPair class1="SCD-C" class2="SCA-C" sigma="0.32" epsilon="3.5" />
+		<NBFixPair class1="SCD-U" class2="BP" sigma="0.32" epsilon="4.5" />
+		<NBFixPair class1="SCD-U" class2="SC2-A" sigma="0.32" epsilon="4.5" />
+		<NBFixPair class1="SCD-U" class2="SCA-A" sigma="0.32" epsilon="4.5" />
+		<NBFixPair class1="SCD-U" class2="SC1-U" sigma="0.32" epsilon="4.5" />
+		<NBFixPair class1="SCD-U" class2="SCA-U" sigma="0.32" epsilon="4.5" />
+		<NBFixPair class1="SCD-U" class2="SC1-G" sigma="0.32" epsilon="4.5" />
+		<NBFixPair class1="SCD-U" class2="SC2-G" sigma="0.32" epsilon="4.5" />
+		<NBFixPair class1="SCD-U" class2="SCA-G" sigma="0.32" epsilon="4.5" />
+		<NBFixPair class1="SCD-U" class2="SCA-C" sigma="0.32" epsilon="4.5" />
+		<NBFixPair class1="SCD-G" class2="BP" sigma="0.32" epsilon="2.0" />
+		<NBFixPair class1="SCD-G" class2="SC2-A" sigma="0.32" epsilon="2.0" />
+		<NBFixPair class1="SCD-G" class2="SCA-A" sigma="0.32" epsilon="2.0" />
+		<NBFixPair class1="SCD-G" class2="SC1-U" sigma="0.32" epsilon="2.0" />
+		<NBFixPair class1="SCD-G" class2="SCA-U" sigma="0.32" epsilon="2.0" />
+		<NBFixPair class1="SCD-G" class2="SC1-G" sigma="0.32" epsilon="2.0" />
+		<NBFixPair class1="SCD-G" class2="SC2-G" sigma="0.32" epsilon="2.0" />
+		<NBFixPair class1="SCD-G" class2="SCA-G" sigma="0.32" epsilon="2.0" />
+		<NBFixPair class1="SCD-G" class2="SCA-C" sigma="0.32" epsilon="2.0" />
+	</LennardJonesForce>
+</ForceField>

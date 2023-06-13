@@ -1,0 +1,112 @@
+-
+  from_residue: [ALA]
+  to_residue: ALA
+  atom_mapping:
+    SP2: [N, H, CA, CB, C, O]
+
+-
+  from_residue: [ARG]
+  to_residue: ARG
+  atom_mapping:
+    BB: [N, H, CA, CB, CG, C, O]
+    SC1: [CB, CG, CD, NE, HE]
+    SC2: [NE, HE, CZ, NH1, HH11, HH12, NH2, HH21, HH22]
+
+-
+  from_residue: [ASN]
+  to_residue: ASN
+  atom_mapping:
+    BB: [N, H, CA, CB, CG, C, O]
+    SC1: [CB, CG, OD1, ND2, HD21, HD22]
+
+-
+  from_residue: [ASP]
+  to_residue: ASP
+  atom_mapping:
+    BB: [N, H, CA, CB, CG, C, O]
+    SC1: [CB, CG, OD1, ND2, HD21, HD22]
+
+-
+  from_residue: [CYS]
+  to_residue: CYS
+  atom_mapping:
+    BB: [N, H, CA, CB, C, O]
+    SC1: [CB, SG, HG]
+
+-
+  from_residue: [GLN]
+  to_residue: GLN
+  atom_mapping:
+    BB: [N, H, CA, CB, CG, C, O]
+    SC1: [CB, CG, CD, OE1, NE2, HE21, HE22]
+
+-
+  from_residue: [GLU]
+  to_residue: GLU
+  atom_mapping:
+    BB: [N, H, CA, CB, CG, C, O]
+    SC1: [CB, CG, CD, OE1, OE2]
+
+-
+  from_residue: [GLY]
+  to_residue: GLY
+  atom_mapping:
+    BB: [N, H, CA, C, O]
+
+-
+  from_residue: [HIS]
+  to_residue: HIS
+  atom_mapping:
+    BB: [N, H, CA, CB, CG, C, O]
+    SC1: [CB, CG, ND1, CD2]
+    SC2: [CD2, CE1, NE2, HE2]
+    SC3: [ND1, CE1, NE2]
+
+-
+  from_residue: [ILE]
+  to_residue: ILE
+  atom_mapping:
+    BB: [N, H, CA, CB, CG1, CG2, C, O]
+    SC1: [CB, CG1, CG2, CD]
+
+-
+  from_residue: [LEU]
+  to_residue: LEU
+  atom_mapping:
+    BB: [N, H, CA, CB, CG, C, O]
+    SC1: [CB, CG, CD1, CD2]
+
+-
+  from_residue: [LYS]
+  to_residue: LYS
+  atom_mapping:
+    BB: [N, H, CA, CB, CG, C, O]
+    SC1: [CB, CG, CD, CE, NZ]
+    SC2: [CE, NZ, HZ1, HZ2, HZ3]
+
+-
+  from_residue: [MET]
+  to_residue: MET
+  atom_mapping:
+    BB: [N, H, CA, CB, CG, SD, C, O]
+    SC1: [CB, CG, SD, CE]
+
+-
+  from_residue: [PHE]
+  to_residue: PHE
+  atom_mapping:
+    BB: [N, H, CA, CB, C, O]
+    SC1: [CB, CG, CD1, HD1, CD2, CE1, CE2]
+    SC2: [CD2, HD2, CE2, HE2, CZ]
+    SC3: [CD1, CE1, HE1, CZ, HZ]
+
+-
+  from_residue: [GLY]
+  to_residue: GLY
+  atom_mapping:
+    BB: [N, H, CA, C, O]
+
+
+
+
+

@@ -1,0 +1,120 @@
+<Residues>
+    <Residue name="RA">
+        <Bond from="-B2" to="BP"/>
+        <Bond from="BP" to="B1"/>
+        <Bond from="B1" to="B2"/>
+        <Bond from="B2" to="SA1"/>
+        <Bond from="SA1" to="SC2"/>
+        <Bond from="SA1" to="SCD"/>
+        <Bond from="SA1" to="SCA"/>
+        <Bond from="SC2" to="SCD"/>
+        <Bond from="SC2" to="SCA"/>
+        <Bond from="SCD" to="SCA"/>
+    </Residue>
+    <Residue name="RA3">
+        <Bond from="-B2" to="BP"/>
+        <Bond from="BP" to="B1"/>
+        <Bond from="B1" to="B2"/>
+        <Bond from="B2" to="SA1"/>
+        <Bond from="SA1" to="SC2"/>
+        <Bond from="SA1" to="SCD"/>
+        <Bond from="SA1" to="SCA"/>
+        <Bond from="SC2" to="SCD"/>
+        <Bond from="SC2" to="SCA"/>
+        <Bond from="SCD" to="SCA"/>
+    </Residue>
+    <Residue name="RC">
+        <Bond from="-B2" to="BP"/>
+        <Bond from="BP" to="B1"/>
+        <Bond from="B1" to="B2"/>
+        <Bond from="B2" to="SC1"/>
+        <Bond from="SC1" to="SCD"/>
+        <Bond from="SC1" to="SCA"/>
+        <Bond from="SCD" to="SCA"/>
+    </Residue>
+    <Residue name="RC3">
+        <Bond from="-B2" to="BP"/>
+        <Bond from="BP" to="B1"/>
+        <Bond from="B1" to="B2"/>
+        <Bond from="B2" to="SC1"/>
+        <Bond from="SC1" to="SCD"/>
+        <Bond from="SC1" to="SCA"/>
+        <Bond from="SCD" to="SCA"/>
+    </Residue>
+    <Residue name="RU">
+        <Bond from="-B2" to="BP"/>
+        <Bond from="BP" to="B1"/>
+        <Bond from="B1" to="B2"/>
+        <Bond from="B2" to="SU1"/>
+        <Bond from="SU1" to="SCD"/>
+        <Bond from="SU1" to="SCA"/>
+        <Bond from="SCD" to="SCA"/>
+    </Residue>
+    <Residue name="RU3">
+        <Bond from="-B2" to="BP"/>
+        <Bond from="BP" to="B1"/>
+        <Bond from="B1" to="B2"/>
+        <Bond from="B2" to="SU1"/>
+        <Bond from="SU1" to="SCD"/>
+        <Bond from="SU1" to="SCA"/>
+        <Bond from="SCD" to="SCA"/>
+    </Residue>
+    <Residue name="RG">
+        <Bond from="-B2" to="BP"/>
+        <Bond from="BP" to="B1"/>
+        <Bond from="B1" to="B2"/>
+        <Bond from="B2" to="SG1"/>
+        <Bond from="SG1" to="SC2"/>
+        <Bond from="SG1" to="SCD"/>
+        <Bond from="SG1" to="SCA"/>
+        <Bond from="SC2" to="SCD"/>
+        <Bond from="SC2" to="SCA"/>
+        <Bond from="SCD" to="SCA"/>
+    </Residue>
+    <Residue name="RG3">
+        <Bond from="-B2" to="BP"/>
+        <Bond from="BP" to="B1"/>
+        <Bond from="B1" to="B2"/>
+        <Bond from="B2" to="SG1"/>
+        <Bond from="SG1" to="SC2"/>
+        <Bond from="SG1" to="SCD"/>
+        <Bond from="SG1" to="SCA"/>
+        <Bond from="SC2" to="SCD"/>
+        <Bond from="SC2" to="SCA"/>
+        <Bond from="SCD" to="SCA"/>
+    </Residue>
+    <Residue name="RA5">
+        <Bond from="B1" to="B2"/>
+        <Bond from="B2" to="SA1"/>
+        <Bond from="SA1" to="SC2"/>
+        <Bond from="SA1" to="SCD"/>
+        <Bond from="SA1" to="SCA"/>
+        <Bond from="SC2" to="SCD"/>
+        <Bond from="SC2" to="SCA"/>
+        <Bond from="SCD" to="SCA"/>
+    </Residue>
+    <Residue name="RC5">
+        <Bond from="B1" to="B2"/>
+        <Bond from="B2" to="SC1"/>
+        <Bond from="SC1" to="SCD"/>
+        <Bond from="SC1" to="SCA"/>
+        <Bond from="SCD" to="SCA"/>
+    </Residue>
+    <Residue name="RU5">
+        <Bond from="B1" to="B2"/>
+        <Bond from="B2" to="SU1"/>
+        <Bond from="SU1" to="SCD"/>
+        <Bond from="SU1" to="SCA"/>
+        <Bond from="SCD" to="SCA"/>
+    </Residue>
+    <Residue name="RG5">
+        <Bond from="B1" to="B2"/>
+        <Bond from="B2" to="SG1"/>
+        <Bond from="SG1" to="SC2"/>
+        <Bond from="SG1" to="SCD"/>
+        <Bond from="SG1" to="SCA"/>
+        <Bond from="SC2" to="SCD"/>
+        <Bond from="SC2" to="SCA"/>
+        <Bond from="SCD" to="SCA"/>
+    </Residue>
+</Residues>

@@ -1,2 +1,2 @@
 # rna_molecule_field
-molecule field designed for RNA
+A JAX based repo for RNA CG molecule field optimization
